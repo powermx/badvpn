@@ -6,8 +6,8 @@
 
 ## Menu del Script ##
 
-- badvpn start       Inicia BadVPN
-- badvpn stop        Detiene BadVPN
+- badvpn start       :Inicia BadVPN
+- badvpn stop        :Detiene BadVPN
 
 ## Instalacion ##
 
@@ -20,4 +20,4 @@ Android México Team / PwrMX
 =========
 
 # Telegram: http://t.me/pwrmx/
-# Blog: http://powermx.org/
+# Blog: http://pwrmx.com/blog/
