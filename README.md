@@ -1,11 +1,6 @@
 ![](https://avatars1.githubusercontent.com/u/29370715?s=400&v=4)
 
 
-
-[TOCM]
-
-
-
 ## Servicios Instalados: UDP 7300 [BadVPN](https://https://github.com/powermx/badvpn "BadVPN")
 
 
