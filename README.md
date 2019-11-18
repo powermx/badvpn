@@ -11,6 +11,7 @@ Instalación：`wget https://raw.githubusercontent.com/powermx/badvpn/master/eas
 ##### Uso
 
 Para Iniciar BadVPN teclea: `badvpn start`
+
 Para Detener BadVPN teclea: `badvpn stop`
 ### BadVPN
 
