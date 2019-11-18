@@ -1,5 +1,12 @@
 ![](https://avatars1.githubusercontent.com/u/29370715?s=400&v=4)
 
+Modulo para habilitar llamadas y juegos en linea.
+<br>
+![](https://img.shields.io/github/v/release/powermx/badvpn)
+![](https://img.shields.io/github/repo-size/powermx/badvpn)
+![](https://img.shields.io/github/stars/powermx/badvpn.svg) 
+![](https://img.shields.io/github/forks/powermx/badvpn.svg) 
+![](https://img.shields.io/github/license/powermx/badvpn.svg)
 
 ## Servicios Instalados: UDP 7300 [BadVPN](https://https://github.com/powermx/badvpn "BadVPN")
 
