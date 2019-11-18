@@ -1,23 +1,28 @@
-## BadVPN
-
-## Servicios Instalados ##
-
-- UDP  : 7300
-
-## Menu del Script ##
-
-- badvpn start       :Inicia BadVPN
-- badvpn stop        :Detiene BadVPN
-
-## Instalacion ##
-
-Copia y pega el siguiente comando para realizar la instalación
-
-`wget https://raw.githubusercontent.com/powermx/badvpn/master/easyinstall && bash easyinstall`
+![](https://avatars1.githubusercontent.com/u/29370715?s=400&v=4)
 
 
-Android México Team / PwrMX
-=========
 
-# Telegram: http://t.me/pwrmx/
-# Blog: http://pwrmx.com/blog/
+[TOCM]
+
+
+
+## Servicios Instalados: UDP 7300 [BadVPN](https://https://github.com/powermx/badvpn "BadVPN")
+
+
+#### Instalacion
+
+Instalación：`wget https://raw.githubusercontent.com/powermx/badvpn/master/easyinstall && bash easyinstall`
+
+##### Uso
+
+Para Iniciar BadVPN teclea: `badvpn start`
+Para Detener BadVPN teclea: `badvpn stop`
+### BadVPN
+
+[![](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg)](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg "BadVPN - PowerMX")
+
+> BadVPN - PowerMX http://pwrmx.com
+                
+----
+
+
