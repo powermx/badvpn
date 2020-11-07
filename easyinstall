@@ -2,7 +2,7 @@
 echo "#!/bin/bash
 if [ "'$1'" == start ]
 then
-badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 250 > /dev/null &
+screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 > /dev/null &
 echo 'Badvpn iniciando en el puerto 7300'
 fi
 if [ "'$1'" == stop ]
@@ -24,8 +24,8 @@ clear
 fi
 echo -e "\033[1;31m           Instalador Badvpn\n\033[0m"
 echo -e "Descargando Badvpn"
-wget -O /bin/badvpn-udpgw https://github.com/powermx/badvpn/blob/master/badvpn-udpgw?raw=true /dev/null
-chmod +x /bin/badvpn-udpgw
+wget -O /usr/bin/badvpn-udpgw "https://raw.github.com/powermx/badvpn/master/badvpn-udpgw64" /dev/null
+chmod +x /usr/bin/badvpn-udpgw
 echo -e "\033[1;32m             Instalacion completa\033[0m" 
 echo -e "\033[1;37mComandos:\n\033[1;31mbadvpn start\033[1;37m para iniciar badvpn"
 echo -e "\033[1;31mbadvpn stop \033[1;37m para parar badvpn\033[0m"
