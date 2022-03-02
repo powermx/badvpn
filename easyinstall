@@ -1,5 +1,10 @@
 #!/bin/bash
 echo "#!/bin/bash
+if [ "'$1'" == menu ]
+echo -e "\033[1;37mComandos:\n\033[1;31mbadvpn start\033[1;37m para iniciar badvpn"
+echo -e "\033[1;31mbadvpn stop \033[1;37m para parar badvpn\033[0m"
+echo -e "\033[1;31mbadvpn uninstall \033[1;37m para desinstalar badvpn\033[0m"
+fi
 if [ "'$1'" == uninstall ]
 then
 badvpnpid="'$(ps x |grep badvpn |grep -v grep |awk '"{'"'print $1'"'})
