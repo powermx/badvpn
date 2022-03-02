@@ -1,5 +1,9 @@
 #!/bin/bash
 echo "#!/bin/bash
+if [ "'$1'" == hello ]
+then
+echo 'hello'
+fi
 if [ "'$1'" == start ]
 then
 screen -dmS bad badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 1000 --client-socket-sndbuf 5300000 --udp-mtu 9000
