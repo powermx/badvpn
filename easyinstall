@@ -1,8 +1,10 @@
 #!/bin/bash
 echo "#!/bin/bash
-if [ "'$1'" == hello ]
+if [ "'$1'" == uninstall ]
 then
-echo 'hello'
+echo 'Desinstalando badvpn'
+rm /bin/badvpn && rm /bin/badvpn-udpgw
+echo 'Desinstalacion completa'
 fi
 if [ "'$1'" == start ]
 then
