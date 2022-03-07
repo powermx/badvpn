@@ -30,11 +30,13 @@ Instalación：`wget https://raw.githubusercontent.com/powermx/badvpn/master/eas
 Para Iniciar BadVPN teclea: `badvpn start`
 
 Para Detener BadVPN teclea: `badvpn stop`
+
+Para Desinstalar BadVPN teclea: `badvpn uninstall`
 ### BadVPN
 
 [![](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg)](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg "BadVPN - PowerMX")
 
-> BadVPN - PowerMX http://pwrmx.com
+> BadVPN - PowerMX http://powsitos.xyz
                 
 ----
 
