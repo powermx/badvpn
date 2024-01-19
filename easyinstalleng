@@ -1,0 +1,39 @@
+#!/bin/bash
+echo "#!/bin/bash
+if [ "'$1'" == uninstall ]
+then
+echo 'Uninstalling badvpn'
+rm /bin/badvpn && rm /bin/badvpn-udpgw
+echo 'Uninstall Complete'
+fi
+if [ "'$1'" == start ]
+then
+screen -dmS bad badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 1000 --client-socket-sndbuf 0 --udp-mtu 9000
+echo 'Badvpn started port: 7300'
+fi
+if [ "'$1'" == stop ]
+then
+badvpnpid="'$(ps x |grep badvpn |grep -v grep |awk '"{'"'print $1'"'})
+kill -9 "'"$badvpnpid" >/dev/null 2>/dev/null
+kill $badvpnpid > /dev/null 2> /dev/null
+kill "$badvpnpid" > /dev/null 2>/dev/null''
+kill $(ps x |grep badvpn |grep -v grep |awk '"{'"'print $1'"'})
+killall badvpn-udpgw
+fi" > /bin/badvpn
+chmod +x /bin/badvpn
+if [ -f /bin/badvpn-udpgw ]; then
+echo -e "\033[1;32mBadvpn is installed\033[0m"
+rm -rf easyinstalleng >/dev/null 2>/dev/null
+exit
+else
+clear
+fi
+echo -e "\033[1;31m           Badvpn Installer\n\033[0m"
+echo -e "Downloading Badvpn"
+wget -O /bin/badvpn-udpgw https://raw.githubusercontent.com/powermx/badvpn/master/badvpn-udpgw &>/dev/null
+chmod +x /bin/badvpn-udpgw
+echo -e "\033[1;32m  Install Complete\033[0m" 
+echo -e "\033[1;37mCommands:\n\033[1;31m badvpn start\033[1;37m to start badvpn"
+echo -e "\033[1;31m badvpn stop \033[1;37m to stop badvpn\033[0m"
+echo -e "\033[1;31m badvpn uninstall \033[1;37m to uninstall badvpn\033[0m"
+rm -rf easyinstalleng >/dev/null 2>/dev/null
