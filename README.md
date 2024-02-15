@@ -36,7 +36,7 @@ Para Desinstalar BadVPN teclea: `badvpn uninstall`
 
 [![](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg)](https://github.com/powermx/badvpn/raw/master/pwrmx.jpg "BadVPN - PowerMX")
 
-> BadVPN - PowerMX http://powsitos.xyz
+> BadVPN - PowerMX http://t.me/vpnmx
                 
 ----
 
